@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FA2F43B1C3C7EAD5D146C36 /* Pods_cordova_hotspot_plugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC951806142B66E117084A0 /* Pods_cordova_hotspot_plugin.framework */; };
+		ED7F52381CE1272D0018D05C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F52371CE1272D0018D05C /* AppDelegate.swift */; };
+		ED7F523A1CE1272D0018D05C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F52391CE1272D0018D05C /* ViewController.swift */; };
+		ED7F523D1CE1272D0018D05C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7F523B1CE1272D0018D05C /* Main.storyboard */; };
+		ED7F523F1CE1272D0018D05C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7F523E1CE1272D0018D05C /* Assets.xcassets */; };
+		ED7F52421CE1272D0018D05C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7F52401CE1272D0018D05C /* LaunchScreen.storyboard */; };
+		ED7F524D1CE1272D0018D05C /* cordova_hotspot_pluginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F524C1CE1272D0018D05C /* cordova_hotspot_pluginTests.swift */; };
+		F125CCC7B9EFF7A049B45B1A /* Pods_cordova_hotspot_pluginTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7438FF2F077503876A7E707D /* Pods_cordova_hotspot_pluginTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED7F52491CE1272D0018D05C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED7F522C1CE1272D0018D05C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED7F52331CE1272D0018D05C;
+			remoteInfo = "cordova-hotspot-plugin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A9BF02A8E818628857D74C7 /* Pods-cordova-hotspot-plugin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cordova-hotspot-plugin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cordova-hotspot-plugin/Pods-cordova-hotspot-plugin.debug.xcconfig"; sourceTree = "<group>"; };
+		30654F25B474B207B4A248F8 /* Pods-cordova-hotspot-pluginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cordova-hotspot-pluginTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-cordova-hotspot-pluginTests/Pods-cordova-hotspot-pluginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		444A6EB885034DCF721A857D /* Pods-cordova-hotspot-pluginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cordova-hotspot-pluginTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-cordova-hotspot-pluginTests/Pods-cordova-hotspot-pluginTests.release.xcconfig"; sourceTree = "<group>"; };
+		7438FF2F077503876A7E707D /* Pods_cordova_hotspot_pluginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cordova_hotspot_pluginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7991D2BC462B239051D841EE /* Pods-cordova-hotspot-plugin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cordova-hotspot-plugin.release.xcconfig"; path = "Pods/Target Support Files/Pods-cordova-hotspot-plugin/Pods-cordova-hotspot-plugin.release.xcconfig"; sourceTree = "<group>"; };
+		ED7F52341CE1272D0018D05C /* cordova-hotspot-plugin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cordova-hotspot-plugin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7F52371CE1272D0018D05C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED7F52391CE1272D0018D05C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED7F523C1CE1272D0018D05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED7F523E1CE1272D0018D05C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED7F52411CE1272D0018D05C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED7F52431CE1272D0018D05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7F52481CE1272D0018D05C /* cordova-hotspot-pluginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cordova-hotspot-pluginTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED7F524C1CE1272D0018D05C /* cordova_hotspot_pluginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cordova_hotspot_pluginTests.swift; sourceTree = "<group>"; };
+		ED7F524E1CE1272D0018D05C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDC951806142B66E117084A0 /* Pods_cordova_hotspot_plugin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cordova_hotspot_plugin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED7F52311CE1272D0018D05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FA2F43B1C3C7EAD5D146C36 /* Pods_cordova_hotspot_plugin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F52451CE1272D0018D05C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F125CCC7B9EFF7A049B45B1A /* Pods_cordova_hotspot_pluginTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018681D0EDE1EF5684D39D71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDC951806142B66E117084A0 /* Pods_cordova_hotspot_plugin.framework */,
+				7438FF2F077503876A7E707D /* Pods_cordova_hotspot_pluginTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		208CEAE62A9CC8269FB928EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A9BF02A8E818628857D74C7 /* Pods-cordova-hotspot-plugin.debug.xcconfig */,
+				7991D2BC462B239051D841EE /* Pods-cordova-hotspot-plugin.release.xcconfig */,
+				30654F25B474B207B4A248F8 /* Pods-cordova-hotspot-pluginTests.debug.xcconfig */,
+				444A6EB885034DCF721A857D /* Pods-cordova-hotspot-pluginTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED7F522B1CE1272D0018D05C = {
+			isa = PBXGroup;
+			children = (
+				ED7F52361CE1272D0018D05C /* cordova-hotspot-plugin */,
+				ED7F524B1CE1272D0018D05C /* cordova-hotspot-pluginTests */,
+				ED7F52351CE1272D0018D05C /* Products */,
+				208CEAE62A9CC8269FB928EE /* Pods */,
+				018681D0EDE1EF5684D39D71 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ED7F52351CE1272D0018D05C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F52341CE1272D0018D05C /* cordova-hotspot-plugin.app */,
+				ED7F52481CE1272D0018D05C /* cordova-hotspot-pluginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED7F52361CE1272D0018D05C /* cordova-hotspot-plugin */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F52371CE1272D0018D05C /* AppDelegate.swift */,
+				ED7F52391CE1272D0018D05C /* ViewController.swift */,
+				ED7F523B1CE1272D0018D05C /* Main.storyboard */,
+				ED7F523E1CE1272D0018D05C /* Assets.xcassets */,
+				ED7F52401CE1272D0018D05C /* LaunchScreen.storyboard */,
+				ED7F52431CE1272D0018D05C /* Info.plist */,
+			);
+			path = "cordova-hotspot-plugin";
+			sourceTree = "<group>";
+		};
+		ED7F524B1CE1272D0018D05C /* cordova-hotspot-pluginTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F524C1CE1272D0018D05C /* cordova_hotspot_pluginTests.swift */,
+				ED7F524E1CE1272D0018D05C /* Info.plist */,
+			);
+			path = "cordova-hotspot-pluginTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED7F52331CE1272D0018D05C /* cordova-hotspot-plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7F52511CE1272D0018D05C /* Build configuration list for PBXNativeTarget "cordova-hotspot-plugin" */;
+			buildPhases = (
+				8DB67D8F6CF78DDB372D8C64 /* Check Pods Manifest.lock */,
+				ED7F52301CE1272D0018D05C /* Sources */,
+				ED7F52311CE1272D0018D05C /* Frameworks */,
+				ED7F52321CE1272D0018D05C /* Resources */,
+				0D47BA7F9EA35C35A5C78C50 /* Embed Pods Frameworks */,
+				ECF5A08445A2BB4AF9AB2C54 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "cordova-hotspot-plugin";
+			productName = "cordova-hotspot-plugin";
+			productReference = ED7F52341CE1272D0018D05C /* cordova-hotspot-plugin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED7F52471CE1272D0018D05C /* cordova-hotspot-pluginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED7F52541CE1272D0018D05C /* Build configuration list for PBXNativeTarget "cordova-hotspot-pluginTests" */;
+			buildPhases = (
+				AAD6C0B3D2A75592156663E6 /* Check Pods Manifest.lock */,
+				ED7F52441CE1272D0018D05C /* Sources */,
+				ED7F52451CE1272D0018D05C /* Frameworks */,
+				ED7F52461CE1272D0018D05C /* Resources */,
+				D71B349D9F1C7E580F7773FD /* Embed Pods Frameworks */,
+				05B269FCA2A117DE749FF299 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED7F524A1CE1272D0018D05C /* PBXTargetDependency */,
+			);
+			name = "cordova-hotspot-pluginTests";
+			productName = "cordova-hotspot-pluginTests";
+			productReference = ED7F52481CE1272D0018D05C /* cordova-hotspot-pluginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED7F522C1CE1272D0018D05C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Louis Orleans";
+				TargetAttributes = {
+					ED7F52331CE1272D0018D05C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ED7F52471CE1272D0018D05C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ED7F52331CE1272D0018D05C;
+					};
+				};
+			};
+			buildConfigurationList = ED7F522F1CE1272D0018D05C /* Build configuration list for PBXProject "cordova-hotspot-plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED7F522B1CE1272D0018D05C;
+			productRefGroup = ED7F52351CE1272D0018D05C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED7F52331CE1272D0018D05C /* cordova-hotspot-plugin */,
+				ED7F52471CE1272D0018D05C /* cordova-hotspot-pluginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED7F52321CE1272D0018D05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F52421CE1272D0018D05C /* LaunchScreen.storyboard in Resources */,
+				ED7F523F1CE1272D0018D05C /* Assets.xcassets in Resources */,
+				ED7F523D1CE1272D0018D05C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F52461CE1272D0018D05C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B269FCA2A117DE749FF299 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cordova-hotspot-pluginTests/Pods-cordova-hotspot-pluginTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0D47BA7F9EA35C35A5C78C50 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cordova-hotspot-plugin/Pods-cordova-hotspot-plugin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DB67D8F6CF78DDB372D8C64 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAD6C0B3D2A75592156663E6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D71B349D9F1C7E580F7773FD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cordova-hotspot-pluginTests/Pods-cordova-hotspot-pluginTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF5A08445A2BB4AF9AB2C54 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-cordova-hotspot-plugin/Pods-cordova-hotspot-plugin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED7F52301CE1272D0018D05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F523A1CE1272D0018D05C /* ViewController.swift in Sources */,
+				ED7F52381CE1272D0018D05C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED7F52441CE1272D0018D05C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED7F524D1CE1272D0018D05C /* cordova_hotspot_pluginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED7F524A1CE1272D0018D05C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED7F52331CE1272D0018D05C /* cordova-hotspot-plugin */;
+			targetProxy = ED7F52491CE1272D0018D05C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED7F523B1CE1272D0018D05C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7F523C1CE1272D0018D05C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED7F52401CE1272D0018D05C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED7F52411CE1272D0018D05C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED7F524F1CE1272D0018D05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED7F52501CE1272D0018D05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED7F52521CE1272D0018D05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A9BF02A8E818628857D74C7 /* Pods-cordova-hotspot-plugin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cordova-hotspot-plugin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.orleans.cordova-hotspot-plugin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED7F52531CE1272D0018D05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7991D2BC462B239051D841EE /* Pods-cordova-hotspot-plugin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "cordova-hotspot-plugin/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.orleans.cordova-hotspot-plugin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED7F52551CE1272D0018D05C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30654F25B474B207B4A248F8 /* Pods-cordova-hotspot-pluginTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cordova-hotspot-pluginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.orleans.cordova-hotspot-pluginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cordova-hotspot-plugin.app/cordova-hotspot-plugin";
+			};
+			name = Debug;
+		};
+		ED7F52561CE1272D0018D05C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 444A6EB885034DCF721A857D /* Pods-cordova-hotspot-pluginTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "cordova-hotspot-pluginTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.orleans.cordova-hotspot-pluginTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cordova-hotspot-plugin.app/cordova-hotspot-plugin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED7F522F1CE1272D0018D05C /* Build configuration list for PBXProject "cordova-hotspot-plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F524F1CE1272D0018D05C /* Debug */,
+				ED7F52501CE1272D0018D05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7F52511CE1272D0018D05C /* Build configuration list for PBXNativeTarget "cordova-hotspot-plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F52521CE1272D0018D05C /* Debug */,
+				ED7F52531CE1272D0018D05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED7F52541CE1272D0018D05C /* Build configuration list for PBXNativeTarget "cordova-hotspot-pluginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7F52551CE1272D0018D05C /* Debug */,
+				ED7F52561CE1272D0018D05C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED7F522C1CE1272D0018D05C /* Project object */;
+}
